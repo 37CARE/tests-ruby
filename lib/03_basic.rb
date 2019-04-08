@@ -17,4 +17,10 @@ end
     return a.to_s.upcase.reverse!
  end
  puts crazy_stuff("Tries this at Home, Kids")
- 
+
+ def array_42(array)
+    array.include?(42)
+end
+
+puts array_42([1, 2, 3, 4, 5, 6])
+
